@@ -6,3 +6,11 @@ html {
 	color: #4d00b3;
 	background-size: auto;
 }
+
+.main {
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: auto;
+}
