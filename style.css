@@ -63,3 +63,11 @@ li {
 	font-size: 1.3em;
 	color: #2f4f4f;
 }
+
+a {
+	float: right;
+	text-align: right;
+	color: #ff6161;
+	font-size: 1.2em;
+	cursor: pointer;
+}
