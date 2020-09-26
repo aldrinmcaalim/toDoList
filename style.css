@@ -19,3 +19,8 @@ h1 {
 	text-align: center;
 	color: #fff;
 }
+
+form {
+	background-color: #fff;
+	padding: 15px;
+}
