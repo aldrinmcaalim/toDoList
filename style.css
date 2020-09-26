@@ -1,0 +1,8 @@
+html {
+	height: 100%;
+	background-image: linear-grdient(rgba(234, 200, 150, 1), rgba(126, 200, 190, 1));
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+	color: #4d00b3;
+	background-size: auto;
+}
