@@ -34,3 +34,11 @@ input[type='text'] {
 	background: #fff;
 	color: #2f4f4f;
 }
+
+button {
+	font-size: 1.5em;
+	color: #53bdff;
+	background-color: #fff;
+	outline: 0;
+	width: 50px;
+}
