@@ -1,6 +1,6 @@
 html {
 	height: 100%;
-	background-image: linear-grdient(#ff6161, #ff768c);
+	background-image: linear-gradient(#ff6161, #ff768c);
 	background-repeat: no-repeat;
 	font-family: sans-serif;
 	color: #0f222d;
@@ -14,18 +14,15 @@ html {
 	flex-direction: column;
 	margin: auto;
 }
-
 h1 {
 	text-align: center;
 	color: #fff;
 }
-
 form {
 	background-color: #fff;
 	padding: 15px;
 }
-
-input[type='text'] {
+input[type="text"] {
 	width: 310px;
 	height: 30px;
 	outline: 0;
@@ -34,28 +31,25 @@ input[type='text'] {
 	background: #fff;
 	color: #2f4f4f;
 }
-
 button {
 	font-size: 1.5em;
 	color: #53bdff;
 	background-color: #fff;
 	outline: 0;
+	border: none;
 	width: 50px;
 }
-
 .tasks {
 	background-color: #fff;
 	margin-top: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 40px;
-	/* display: none; */
+	/*display: none;*/
 }
-
 ul {
 	list-style: none;
 }
-
 li {
 	border-bottom: 1px solid #53bdff;
 	padding-bottom: 15px;
@@ -63,7 +57,6 @@ li {
 	font-size: 1.3em;
 	color: #2f4f4f;
 }
-
 a {
 	float: right;
 	text-align: right;
@@ -71,10 +64,9 @@ a {
 	font-size: 1.2em;
 	cursor: pointer;
 }
-
 .delete {
 	background-color: #ff6161;
-	padding: 0px 3px;
+	padding: 0px 3px 0px 3px;
 	color: #fff;
 	cursor: pointer;
 }
@@ -84,11 +76,9 @@ a {
 		margin: auto;
 		width: 100%;
 	}
-
-	input[type='text'] {
+	input[type="text"] {
 		width: 80%;
 	}
-
 	button {
 		width: 10%;
 	}
