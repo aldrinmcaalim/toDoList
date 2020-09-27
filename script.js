@@ -5,3 +5,11 @@ function loadEvents() {
 }
 
 // subit data function
+function submit(e) {
+    e.preventDefault();
+    let input = document.querySelector('input');
+    if (input.value != ' ')
+        addTask(input.value);
+    input.value = ' ';
+}
+
